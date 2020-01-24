@@ -5,7 +5,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ./Hello-Again/Hello-Again.csproj Hello-Again/
+COPY ./Hello-Again.csproj Hello-Again/
 RUN dotnet restore "Hello-Again/Hello-Again.csproj"
 COPY . .
 WORKDIR "/src/Hello-Again"
