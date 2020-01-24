@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ./Hello-Again.csproj Hello-Again/
 RUN dotnet restore "Hello-Again/Hello-Again.csproj"
-COPY . .
+COPY . Hello-Again/
 WORKDIR "/src/Hello-Again"
 RUN dotnet build "Hello-Again.csproj" -c Release -o /app/build
 

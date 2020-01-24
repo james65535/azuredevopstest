@@ -1,17 +1,16 @@
 ﻿<Properties StartupConfiguration="{53A65AC7-7ED4-4F20-9397-70AB53269D32}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Hello-Again/Pages/Index.cshtml" Line="9" Column="90" />
-      <File FileName="Hello-Again/Dockerfile" Line="8" Column="8" />
+      <File FileName="Hello-Again/Dockerfile" Line="10" Column="20" />
       <File FileName=".gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Hello-Again" expanded="True">
-            <Node name="Solution Items" expanded="True">
-              <Node name="/Users/lloydd/Projects/azuredevopstest/.gitignore" selected="True" />
-            </Node>
+          <Node name="Hello-Again" expanded="True" selected="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="docker-compose" expanded="True" />
             <Node name="Hello-Again" expanded="True">
               <Node name="Dependencies" expanded="True" />
             </Node>
