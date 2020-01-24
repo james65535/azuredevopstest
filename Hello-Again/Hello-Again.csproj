@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Hello_Again</RootNamespace>
+    <DockerComposeProjectPath>../docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>ad68bfb3-b5db-4112-93bf-ee00132a6cbf</UserSecretsId>
   </PropertyGroup>
 
 

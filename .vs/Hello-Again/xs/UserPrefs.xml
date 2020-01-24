@@ -1,10 +1,18 @@
-﻿<Properties StartupConfiguration="{53A65AC7-7ED4-4F20-9397-70AB53269D32}|Default">
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{BA69A60E-CFA7-4F24-927E-445DAC1EAF9C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Hello-Again/Pages/Index.cshtml">
+    <Files>
+      <File FileName="Hello-Again/Dockerfile" Line="20" Column="41" />
+      <File FileName="docker-compose.yml" Line="8" Column="29" />
+      <File FileName="Hello-Again/Pages/Index.cshtml" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Hello-Again" expanded="True" selected="True">
-            <Node name="Hello-Again" expanded="True" />
+          <Node name="Hello-Again" expanded="True">
+            <Node name="docker-compose" expanded="True" />
+            <Node name="Hello-Again" expanded="True" selected="True">
+              <Node name="Pages" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,6 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
