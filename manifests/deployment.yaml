@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-again
+  labels:
+    app: hello-again
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-again
+  template:
+    metadata:
+      labels:
+        app: hello-again
+    spec:
+      containers:
+        - name: app
+          image: jmazuredevopstest.azurecr.io/azuredevopstest
+          ports:
+            - containerPort: 80
+              name: http
+            - containerPort: 443
+              name: https
+          imagePullPolicy: Always
