@@ -29,7 +29,8 @@ stages:
         containerRegistry: $(dockerRegistryServiceConnection)
         tags: |
           $(tag)          
-#    - task: PublishPipelineArtifact@1
-#      inputs:
-#        artifactName: 'manifests'
-#        path: 'manifests'
+    - task: PublishPipelineArtifact@1
+      displayName: "Publish artifacts"
+      inputs:
+        artifactName: 'manifests'
+        path: 'manifests'
